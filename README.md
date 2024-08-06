@@ -31,6 +31,7 @@ git clone https://github.com/ifebrand6/cashier-app-kantox
 ```
 
 ### Usage
+```
 
 # Create new product instances
 test1 = Shop.Product.new("GR1", "Green Tea", 5_00)
@@ -48,7 +49,7 @@ Shop.scan(test1)
 # Get the total amount
 Shop.total()  # Output: "5_00£"
 
-
+```
 
 ### Design Considerations
 
