@@ -1,21 +1,19 @@
-# CashierApp
+# Cashier Shop
 
-**TODO: Add description**
+This Elixir application implements a checkout process, allowing you to manage and compute transactions using various rules and products.
 
-## Installation
+## Getting Started
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `cashier_app` to your list of dependencies in `mix.exs`:
+### Install Elixir
 
-```elixir
-def deps do
-  [
-    {:cashier_app, "~> 0.1.0"}
-  ]
-end
-```
+Follow the installation guide provided at [Elixir Installation Guide](https://elixir-lang.org/install.html).
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/cashier_app>.
+### Clone the Project
+
+Clone this repository to your local machine using:
+
+```bash
+git clone <repository-url>
+
+ ```
 
