@@ -40,11 +40,9 @@ test2 = Shop.Product.new("GR2", "Green Tea", 5_00)
 # Add rules to the checkout process
 Shop.add_rule(Shop.Rules.CEO)
 
-# Start the scanning process
-Shop.scan()
-
 # Scan individual products
 Shop.scan(test1)
+Shop.scan(test2)
 
 # Get the total amount
 Shop.total()  # Output: "5_00£"
